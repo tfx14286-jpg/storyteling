@@ -1,0 +1,33 @@
+{
+  "tts": {
+    "engine": "edge-tts",
+    "voice": "id-ID-ArdiNeural",
+    "rate": "+0%",
+    "volume": "+0%",
+    "fallback_voice_gtts": "id"
+  },
+  "image": {
+    "provider": "pollinations",
+    "width": 1280,
+    "height": 720,
+    "model": "flux",
+    "enhance": true,
+    "nologo": true
+  },
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "bg_music_volume": 0.15,
+    "voice_volume": 1.0,
+    "transition_duration": 0.5,
+    "ken_burns": false,
+    "subtitle": {
+      "enabled": true,
+      "fontsize": 52,
+      "color": "white",
+      "stroke_color": "black",
+      "stroke_width": 2.5
+    }
+  }
+}
