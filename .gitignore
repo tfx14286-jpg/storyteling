@@ -11,3 +11,9 @@ storyteling-render.zip
 *.mp3
 .env
 .vercel/
+
+.gh_token*
+fix_repo.py
+*.log
+test_*.mp3
+
